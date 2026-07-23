@@ -25,5 +25,9 @@
     "postcss": "^8.4.24",
     "eslint": "^8.50.0",
     "eslint-config-next": "^14.0.0"
+  },
+  "overrides": {
+    "rimraf": "^4.4.1",
+    "glob": "^10.4.0"
   }
 }
