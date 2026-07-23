@@ -70,11 +70,7 @@ export default function Pricing() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className={`p-8 rounded-lg transition ${
-                plan.highlighted
-                  ? 'bg-black text-white border-2 border-black transform scale-105'
-                  : 'bg-white border border-gray-200'
-              }`}
+              className={plan.highlighted ? 'p-8 rounded-lg transition bg-black text-white border-2 border-black transform scale-105' : 'p-8 rounded-lg transition bg-white border border-gray-200'}
             >
               <h3 className="text-2xl font-bold mb-2">{plan.name}</h3>
               <p className={plan.highlighted ? 'text-gray-300' : 'text-gray-600'}>{plan.description}</p>
@@ -84,11 +80,7 @@ export default function Pricing() {
                 <span className={plan.highlighted ? 'text-gray-300' : 'text-gray-600'}>{plan.period}</span>
               </div>
 
-              <button className={`w-full py-3 rounded-lg font-semibold mb-8 transition ${
-                plan.highlighted
-                  ? 'bg-white text-black hover:bg-gray-100'
-                  : 'bg-black text-white hover:bg-gray-900'
-              }`}>
+              <button className={plan.highlighted ? 'w-full py-3 rounded-lg font-semibold mb-8 transition bg-white text-black hover:bg-gray-100' : 'w-full py-3 rounded-lg font-semibold mb-8 transition bg-black text-white hover:bg-gray-900'}>
                 Get Started
               </button>
 
