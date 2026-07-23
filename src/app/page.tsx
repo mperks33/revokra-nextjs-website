@@ -3,7 +3,9 @@
 import Navigation from '@/components/Navigation'
 import Hero from '@/components/Hero'
 import Features from '@/components/Features'
-import UseCases from '@/components/UseCases'
+import HowItWorks from '@/components/HowItWorks'
+import Industries from '@/components/Industries'
+import Testimonial from '@/components/Testimonial'
 import Security from '@/components/Security'
 import Pricing from '@/components/Pricing'
 import Footer from '@/components/Footer'
@@ -14,7 +16,9 @@ export default function Home() {
       <Navigation />
       <Hero />
       <Features />
-      <UseCases />
+      <HowItWorks />
+      <Industries />
+      <Testimonial />
       <Security />
       <Pricing />
       <Footer />
