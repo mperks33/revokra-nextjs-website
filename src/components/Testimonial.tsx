@@ -19,7 +19,7 @@ export default function Testimonial() {
           </div>
           
           <h3 className="text-3xl md:text-4xl font-bold text-black mb-6 leading-tight">
-            Revokra gives us the visibility and control we need when sharing sensitive documents. It's a game changer.
+            Revokra gives us the visibility and control we need when sharing sensitive documents. It{"'"}s a game changer.
           </h3>
           
           <p className="text-lg text-gray-600 mb-2">

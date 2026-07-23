@@ -15,7 +15,7 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-6xl md:text-7xl font-bold text-black mb-6 leading-tight">
-              Control doesn't end at send.
+              Control doesn{"'"}t end at send.
             </h1>
             
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
