@@ -23,10 +23,7 @@
     "@types/node": "^20.0.0",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.24",
-    "eslint": "^8.59.0",
-    "eslint-config-next": "^14.2.35"
-  },
-  "overrides": {
-    "rimraf": "^4.0.0"
+    "eslint": "^8.50.0",
+    "eslint-config-next": "^14.0.0"
   }
 }
